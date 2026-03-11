@@ -1,0 +1,93 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+!*.tfvars.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+kubeconfig.yaml
+
+# AWS
+.aws/
+credentials
+
+# Docker
+.docker/
+
+# Secrets - NEVER commit these
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+secrets.yaml
+secrets.yml
+*-secret.yaml
+*-secret.yml
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+*.lcov
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# Helm
+charts/*.tgz
+
+# Excalidraw backups
+*.excalidraw.bak
