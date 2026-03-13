@@ -3,7 +3,7 @@
 Complete DevOps learning platform: From junior to senior engineer. 35 production tools running on k3s/AWS, 14 implementation sprints, full CI/CD with GitOps.
 
 ## Architecture
-
+https://miro.com/app/board/uXjVGy95E1s=/
 ```
 GitHub (Source of Truth)
 ├── Code changes → GitHub Actions (CI) → Security scan → Build → Sign → Push to ECR
