@@ -85,7 +85,7 @@ Without alerts, a misconfigured resource or attack can cost thousands before you
 8. Add your **email** for notifications
 9. Click **Create budget**
 
-### Enable Cost Explorer:
+### Enable Cost Explorer://need to do that 
 1. Go to **Billing** → **Cost Explorer**
 2. Click **Enable Cost Explorer**
 3. It takes ~24 hours to populate data
